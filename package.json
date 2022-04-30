@@ -1,0 +1,27 @@
+{
+  "name": "module-cleaner",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "author": "chenguixin",
+  "keywords": [
+    "module",
+    "node_modules",
+    "cleaner",
+    "helpers"
+  ],
+  "scripts": {
+    "build": "rollup --config",
+    "dev": "node ./src/index.js",
+    "help": "node ./src/index.js --help"
+  },
+  "dependencies": {
+    "yargs": "^17.1.1-candidate.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.10",
+    "prettier": "^2.6.2",
+    "rollup": "^2.71.0"
+  }
+}
